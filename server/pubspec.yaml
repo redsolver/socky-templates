@@ -16,3 +16,7 @@ dependencies:
 dev_dependencies:
   build_runner: ^1.0.0
   socky_builder: ^0.1.0
+
+dependency_overrides:
+  analyzer: '0.39.14'
+

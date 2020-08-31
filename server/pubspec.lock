@@ -7,14 +7,14 @@ packages:
       name: _fe_analyzer_shared
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "4.0.0"
+    version: "6.0.0"
   analyzer:
-    dependency: transitive
+    dependency: "direct overridden"
     description:
       name: analyzer
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.39.10"
+    version: "0.39.14"
   args:
     dependency: transitive
     description:
@@ -99,6 +99,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.0.2"
+  cli_util:
+    dependency: transitive
+    description:
+      name: cli_util
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "0.1.4"
   code_builder:
     dependency: transitive
     description:
@@ -333,17 +340,17 @@ packages:
   socky_builder:
     dependency: "direct dev"
     description:
-      path: "../../../socky_builder"
-      relative: true
-    source: path
-    version: "0.0.0"
+      name: socky_builder
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "0.1.2"
   socky_server:
     dependency: "direct main"
     description:
-      path: "../../../socky_server"
-      relative: true
-    source: path
-    version: "0.0.0"
+      name: socky_server
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "0.1.0"
   source_gen:
     dependency: transitive
     description:
