@@ -1,0 +1,14 @@
+# WARNING This Package is 100% generated, *** DO NOT EDIT ***
+name: client
+description: This package contains mostly generated client code.
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  http: ^0.12.0+4
+  web_socket_channel: ^1.1.0
+
+  # Contains dart code which is shared between server and app
+  shared:
+    path: ../shared
